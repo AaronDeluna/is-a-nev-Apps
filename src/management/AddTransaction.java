@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class AddTransaction {
     public static void addTransaction(String[] arraySpendingName, String[] arrayIncomeName, int[] arrayEarnedMoney, int[] arraySpentMoney, Scanner scanner, int counter){
-        System.out.println("Выберите из: \n1 - доход \n2 - расход \n");
+        System.out.println("Выберите из: \n1 - доход \n2 - расход");
         int command = scanner.nextInt();
 
         if (command == 1){
